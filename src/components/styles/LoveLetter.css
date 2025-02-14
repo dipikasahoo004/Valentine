@@ -1,0 +1,79 @@
+.love-letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffe4e1; /* Romantic light pink */
+  }
+  
+  .envelope {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: #f08080; /* Envelope color */
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .envelope.open {
+    transform: rotateX(180deg); /* Envelope opens */
+    background: transparent;
+    box-shadow: none;
+  }
+  
+  .heart-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #ff4d4d; /* Heart red */
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .heart-button:hover {
+    transform: scale(1.2);
+  }
+  
+  .letter-box {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background: #ffffff; /* Letter background */
+    border: 2px solid #f08080; /* Match envelope color */
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotateX(180deg); /* Unflip text inside the envelope */
+  }
+  
+  
+  .letter-box h2 {
+    margin: 0;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 24px;
+    color: #d62828;
+  }
+  
+  .letter-box p {
+    margin: 10px 0 0 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+  }
+  

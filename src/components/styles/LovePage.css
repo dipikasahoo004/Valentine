@@ -1,0 +1,55 @@
+.heading{
+    text-align: center;
+    margin-top: 50px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.heading h5,.hand-point{
+    margin-top: 20px;
+}
+
+.heading h5{
+    text-decoration: underline;
+}
+
+.love {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.love-page h3{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.love-page img{
+    height: 250px;
+    margin-top: 30px;
+    width: 250px;
+}
+
+.hand-point{
+    cursor: pointer;
+}
+
+.loveLetter{
+    margin-top: 10px;
+    background-color: red;
+    width:100px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

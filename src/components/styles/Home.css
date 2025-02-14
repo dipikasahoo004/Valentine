@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%; 
+    width: 100%; 
+}
+
+body {
+    background: #ffc0cb;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.explore{
+    height: 60px;
+    width: 160px;
+    background-color:#ff7f50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.explore:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
